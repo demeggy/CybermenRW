@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <JobDef>
+    <defName>EnterCyberConverter</defName>
+    <driverClass>Cybermen.JobDriver_EnterCyberConverter</driverClass>
+    <reportString>entering cyber-converter.</reportString>
+    <taleOnCompletion>EnteredCryptosleep</taleOnCompletion>
+  </JobDef>
+  
+  <JobDef>
+    <defName>CarryToCyberConverter</defName>
+    <driverClass>Cybermen.JobDriver_CarryToCyberConverter</driverClass>
+    <reportString>carrying to cyber-converter.</reportString>
+    <taleOnCompletion>EnteredCryptosleep</taleOnCompletion>
+  </JobDef>
+  
+</Defs>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef>
+	<defName>CyberFaction</defName>
+	<label>Cybermen</label>
+    <description>A Legion of the Cybermen army</description>
+    <pawnsPlural>Cybermen</pawnsPlural>
+    <baseSelectionWeight>.75</baseSelectionWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>false</canStageAttacks>
+    <leaderTitle>Cyber-Controller</leaderTitle>
+	<hidden>true</hidden>
+    <startingGoodwill>
+      <min>-100</min>
+      <max>-80</max>
+    </startingGoodwill>
+	<!--<factionNameMaker>NamerFactionCyber</factionNameMaker>
+	<baseNameMaker>NamerFactionCyberBase</baseNameMaker>-->
+	<fixedName>a Legion of Cybermen</fixedName>
+	<techLevel>Ultra</techLevel>
+	<backstoryCategory>CyberBackstory</backstoryCategory>
+	<hairTags>
+		<li>Urban</li>
+	</hairTags>
+    <naturalColonyGoodwill>
+      <min>-100</min>
+      <max>-80</max>
+    </naturalColonyGoodwill>
+    <allowedArrivalTemperatureRange>
+      <min>-50</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Normal</kindDef>
+        <options>
+          <Cyberman>50</Cyberman>
+        </options>
+      </li>
+	  <li>
+        <kindDef>FactionBase</kindDef>
+        <options>
+			<Cyberman>100</Cyberman>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <!--<homeIconPath>World/CyberIcon</homeIconPath>
+	<expandingIconTexture>World/CyberIcon</expandingIconTexture>-->
+  </FactionDef>
+
+</Defs>

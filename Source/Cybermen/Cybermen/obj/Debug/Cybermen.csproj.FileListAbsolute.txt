@@ -1,0 +1,3 @@
+F:\Games\SteamApps\common\RimWorld\Mods\Cybermen\Assemblies\Cybermen.dll
+F:\Games\SteamApps\common\RimWorld\Mods\Cybermen\Source\Cybermen\Cybermen\obj\Debug\Cybermen.csprojResolveAssemblyReference.cache
+F:\Games\SteamApps\common\RimWorld\Mods\Cybermen\Source\Cybermen\Cybermen\obj\Debug\Cybermen.dll

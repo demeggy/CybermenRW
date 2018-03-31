@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef Name="CyberBase" Abstract="True">
+    <defaultFactionType>CyberFaction</defaultFactionType>
+    <race>Alien_Cyber</race>
+	<backstoryCategory>CyberBackstory</backstoryCategory>
+    <chemicalAddictionChance>0.0</chemicalAddictionChance>
+    <baseRecruitDifficulty>0.0</baseRecruitDifficulty>
+    <apparelAllowHeadwearChance>100</apparelAllowHeadwearChance>
+    <apparelTags>
+		<li>Cyberman</li>
+    </apparelTags>
+	<apparelRequired>
+		<li>Cyber_Helmet</li>
+		<li>Cyber_Armour</li>
+	</apparelRequired>	
+    <isFighter>true</isFighter>
+    <gearHealthRange>
+      <min>0.2</min>
+      <max>2.0</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>1</min>
+      <max>30000</max>
+    </apparelMoney>
+    <invNutrition>2.55</invNutrition>
+  </PawnKindDef>
+   
+  <PawnKindDef ParentName="CyberBase">
+    <defName>Cyberman</defName>
+    <label>Cyberman</label>
+	<combatPower>10</combatPower>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="CyberBase">
+    <defName>Cyberleader</defName>
+    <label>Cyberleader</label>
+	<combatPower>10</combatPower>
+  </PawnKindDef>
+  
+  </Defs>

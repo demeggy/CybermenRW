@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>NamerPersonCyber</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[Cyberfirst] [Cyberlast]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>Cyberfirst</keyword>
+          <path>Cyber_Names/CyberM</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Cyberlast</keyword>
+          <path>Cyber_Names/Cyberlast</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  
+  <!-- <RulePackDef>
+    <defName>NamerFactionCyber</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[CyberFaction]</li>
+      </rulesStrings>
+    </rulePack>
+	
+	<li Class="Rule_File">
+		<keyword>CyberFaction</keyword>
+		<path>Cyber_Names/CyberFaction</path>
+	</li>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>NamerFactionCyberBase</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[CyberFactionBase]</li>
+      </rulesStrings>
+    </rulePack>
+	
+	<li Class="Rule_File">
+		<keyword>CyberFactionBase</keyword>
+		<path>Cyber_Names/CyberFactionBase</path>
+	</li>
+  </RulePackDef> -->
+
+</Defs>

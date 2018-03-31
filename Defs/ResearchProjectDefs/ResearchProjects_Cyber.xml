@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ResearchTabDef>
+		<defName>Cyber_Research</defName>
+		<label>Cybertech</label>
+	</ResearchTabDef>
+	
+	<ResearchProjectDef>
+		<defName>CyberConversion</defName>
+		<label>Cyber-Conversion</label>
+		<description>The research into the application of Cybernetics within a confined production line process, realising the Cybermen dream of complete conversion</description>
+		<baseCost>1600</baseCost>
+		<techLevel>Spacer</techLevel>
+		<tab>Cyber_Research</tab>
+		<prerequisites>
+		<li>MultiAnalyzer</li>
+		<li>HospitalBed</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>Cybernetics</defName>
+		<label>Cybernetics</label>
+		<description>The science of advanced biomechanical augmentation, much more advanced than anything humanity could dream of</description>
+		<baseCost>1600</baseCost>
+		<techLevel>Spacer</techLevel>
+		<tab>Cyber_Research</tab>
+		<prerequisites>
+		<li>MultiAnalyzer</li>
+		<li>HospitalBed</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+	
+</Defs>

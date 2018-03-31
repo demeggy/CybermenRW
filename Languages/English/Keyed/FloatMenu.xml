@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <CarryToConversionUnit>Carry {0} to conversion unit</CarryToConversionUnit>
+  <CannotCarryToConversionUnit>Cannot carry to conversion unit</CannotCarryToConversionUnit>
+  <NoConversionUnit>No available conversion unit.</NoConversionUnit>
+  <EnterConversionUnit>Enter conversion unit</EnterConversionUnit>
+  <OpenConversionUnit>Open conversion unit</OpenConversionUnit>
+  
+</LanguageData>
